@@ -1,0 +1,111 @@
+
+.dwl-sec{
+    width: 100%;
+    padding:8rem 0 0 0;
+    
+    
+
+}
+
+
+
+.dwl-con{
+    width: 95%;
+    max-width: 1920px;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+   gap: 3rem;
+   align-items: center;
+   
+   
+}
+
+.dwl-image{
+    width: 100%;
+    position: relative;
+   
+}
+
+.dwl-details {
+    padding:  0 1rem;
+}
+
+.dwl-details h1{
+    font-size: 2.8rem;
+    font-weight: 800;
+}
+
+.dwl-details p{
+    font-size: 1rem;
+    padding: 1rem 0;
+}
+
+.feature{
+    padding: .6rem 0;
+}
+
+.f-flex{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.f-flex h3{
+    font-size: 1.5rem;
+}
+
+.feature p{
+    font-size: 1rem;
+}
+
+
+
+.dwl-apps-flex{
+    display: flex;
+    gap: 1.5rem;
+   
+}
+
+
+.dwl-apps-flex img{
+cursor: pointer;
+}
+    @media screen and (max-width:1200px) {
+            .dwl-con{
+                flex-direction: column;
+             
+            }
+
+    }
+
+
+    @media screen and (max-width:800px) {
+        .dwl-details h1{
+            font-size: 1.5rem;
+           
+        }
+        
+        .dwl-image img{
+            width: 100%;
+        }
+
+        .dwl-details {
+            padding:  2rem 1rem;
+        }
+
+    
+        .f-flex h3{
+            font-size: 1.2rem;
+        }
+
+        .dwl-apps-flex{
+           flex-direction: column;
+           align-items: center;
+        }
+
+        .dwl-apps-flex img{
+            width: 10rem;
+        }
+        
+    }

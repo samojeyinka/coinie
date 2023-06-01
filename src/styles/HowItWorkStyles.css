@@ -1,0 +1,130 @@
+.hiw-sec{
+    padding: 4rem 0 0 0;
+    overflow: hidden;
+}
+
+
+
+
+.hiw-con{
+    width: 95%;
+    max-width: 1920px;
+    margin: auto;
+    
+}
+
+
+.hiw-con h1, .hiw-con p, .hiw-con h3{
+    text-align: center;
+    padding: .7rem 0;
+}
+
+
+.hiw-con h1{
+    font-size: 2.8rem;
+    font-weight: 800;
+}
+
+
+.hiw-con p{
+    font-size: 1.15rem;
+    max-width: 30%;
+    margin: auto;
+}
+
+
+.hiw-boxes{
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+
+.hiw-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+
+.hiw-box p{
+    max-width: 100%;
+}
+
+
+
+.hiw-top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hiw-top img:hover{
+    transform: translate(20px);
+}
+
+.hiw-bottom{
+    padding: 0 1.2rem;
+}
+
+
+.hiw-bottom p{
+    font-size: 1rem;
+    font-weight: 500;
+    width: 98%;
+}
+
+
+.hiw-bottom p:first-of-type{
+    font-weight: 700;
+    margin-bottom: -1rem;
+    font-size: .8rem;
+}
+
+
+@media screen and (max-width:1040px){
+    
+    
+.hiw-con p{
+    font-size: 1.15rem;
+    max-width: 70%;
+    margin: auto;
+}
+.hiw-boxes{
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.hiw-bottom p{
+    width: 90%;
+    max-width: 90%;
+}
+
+
+
+}
+
+
+
+@media screen and (max-width:800px){
+
+    
+.hiw-con h1{
+    font-size: 2rem;
+}
+
+.hiw-boxes{
+    grid-template-columns: 1fr ;
+}
+.hiw-bottom{
+    padding: 0 0;
+}
+
+    .hiw-bottom p{
+        width: 100%;
+        max-width: 100%;
+    }
+}

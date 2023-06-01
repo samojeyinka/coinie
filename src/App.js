@@ -1,25 +1,34 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import  {useThemeHook} from './GlobalComponents/ThemeProvider';
+import { Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import BuyorSell from './pages/BuyorSell';
+import Blog from './pages/Blog';
+import Budget from './pages/Budget';
+import Markets from './pages/Markets';
+import Wallet from './pages/Wallet';
+
 
 function App() {
+
+  const [theme] = useThemeHook();
+
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <main className={theme ? 'bg-light-black' : 'bg-light'}>
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/home' element={<Home/>}/>
+          <Route path='/crypto' element={<BuyorSell/>}/>
+          <Route path='/blog' element={<Blog/>}/>
+          <Route path='/budget' element={<Budget/>}/>
+          <Route path='/markets' element={<Markets/>}/>
+          <Route path='/wallet' element={<Wallet/>}/>
+        </Routes>
+    </main>
+
+  )
 }
 
 export default App;

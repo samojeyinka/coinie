@@ -1,0 +1,139 @@
+.hero-sec{
+    width: 100%;
+    height:100%;
+    padding-bottom: 2rem;
+    overflow: hidden;
+   
+
+}
+
+
+.hero-flex{
+    padding-top: 9rem;
+    width: 95%;
+    max-width: 1920px;
+    margin: auto;
+   display: flex;
+   justify-content: space-between;
+   /* align-items: center; */
+   
+}
+
+
+.hero-content{
+    width: 50%;
+   
+}
+
+
+.hero-content h1{
+    font-size: 4rem;
+    font-weight: 700;
+    
+}
+
+
+.hero-content p {
+    max-width: 80%;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    padding: 2rem 0 2rem 0;
+}
+
+
+.hero-content button{
+padding: 1rem 3rem;
+background: var(--primary-color);
+border-radius: 2rem;
+
+}
+
+
+.hero-content button a {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    
+}
+
+
+.hero-content h3{
+    padding: 2rem 0 0 0;
+    font-size: 1.6rem;
+    opacity: .8;
+}
+
+.partParent{
+    width: 70%;
+    overflow-x: hidden;
+    cursor: grab;
+}
+
+.inner-carousel{
+    cursor: grab;
+
+}
+
+.partners{
+    padding-top: 1.1rem;
+    display: flex;
+    gap: 3rem;
+    cursor: grab;
+
+}
+
+
+.partners img{
+    cursor:grab;
+}
+
+
+@media screen and (max-width:1160px){
+    
+.hero-flex{
+   flex-direction: column;
+}
+
+.hero-content{
+    width: 100%;
+}
+
+.hero-content h1{
+    font-size: 3rem;
+    
+}
+.hero-content p {
+    max-width: 100%;
+}
+
+.hero-image{
+    padding-top: 4rem;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.hero-image img{
+    width: 35rem;
+    
+}
+}
+
+
+
+@media screen and (max-width:800px){
+
+    
+.hero-content h1{
+    font-size: 2.1rem;
+    
+}
+    .hero-image img{
+        width: 100%;
+ 
+    }
+
+    
+}

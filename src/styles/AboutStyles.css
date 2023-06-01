@@ -1,0 +1,126 @@
+
+.about-sec{
+    width: 100%;
+    padding: 8rem 0;
+}
+
+
+
+.about-con{
+    width: 95%;
+    max-width: 1920px;
+    margin: auto;
+    display: flex;
+   gap: 3rem;
+   align-items: center;
+   
+}
+
+.about-image{
+    width: 100%;
+    position: relative;
+   
+}
+
+.float-img{
+    position: absolute;
+    
+}
+
+.f-img-1{
+    bottom:2rem;
+    left: 0;
+}
+
+.f-img-2{
+    top: 5rem;
+    right: 10%;
+}
+
+.f-img-3{
+    top: -2rem;
+    left: 30%;
+}
+.f-img-4{
+    top: 2rem;
+    left: 3rem;
+}
+
+.f-img-5{
+    bottom: 4.4rem;
+    right: 16%;
+}
+
+.about-details {
+    padding:  0 1rem;
+}
+
+.about-details h1{
+    font-size: 2.8rem;
+    font-weight: 800;
+}
+
+.about-details p{
+    font-size: 1.15rem;
+    padding: 1rem 0;
+}
+
+.feature{
+    padding: 1.5rem 0;
+}
+
+.f-flex{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.f-flex h3{
+    font-size: 1.5rem;
+}
+
+.feature p{
+    font-size: 1rem;
+}
+.about-con button{
+    padding: 1rem 3rem;
+    background: var(--primary-color);
+    border-radius: 2rem;
+    
+    }
+    
+    
+    .about-con button a {
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 600;
+        
+    }
+
+
+    @media screen and (max-width:1200px) {
+            .about-con{
+                flex-direction: column;
+             
+            }
+
+    }
+
+
+    @media screen and (max-width:800px) {
+        .about-details h1{
+            font-size: 2rem;
+           
+        }
+        
+        .about-image img{
+            width: 100%;
+        }
+
+        .float-img{
+            display: none;
+        }
+        .f-flex h3{
+            font-size: 1.2rem;
+        }
+    }
