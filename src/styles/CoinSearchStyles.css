@@ -1,0 +1,181 @@
+.coins-sec{
+    padding: 2rem 0;
+    width: 100%;
+}
+
+.coins-con{
+    width: 95%;
+    margin: auto;
+    
+}
+
+.coin-table-con{
+    width: 100%;
+    overflow: auto;
+}
+.coins-con .top-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coins-con h1{
+    font-size: 2.8rem;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    border: 3px solid #9da3b3;
+    border-radius: 2rem;
+    
+}
+
+form:hover{
+    border: 3px solid var(--primary-color);
+}
+
+.coins-sec form input{
+    padding: .4rem .4rem;
+    font-size: 1.1rem;
+    background: none;
+    border: none;
+    outline: none;
+   
+}
+
+
+
+.search-icon{
+    color: #9da3b3;
+    cursor:pointer ;
+}
+
+
+
+.coins-con table {
+    margin: 3rem 0;
+    width: 100%;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-weight: 700;
+    font-size: 1.1rem;
+    
+  }
+
+  table th{
+    font-weight: 600;
+  }
+  
+  td, th {
+    text-align: left;
+    padding: 1rem;
+  }
+
+  thead tr.dark{
+    border-bottom: 2px solid #fff;
+  }
+
+  thead tr.light{
+    border-bottom: 2px solid #000;
+  }
+
+  tr{
+    border-bottom: 1px solid #9da3b337;
+  }
+
+  tbody tr:hover{
+    background:var(--primary-color-light);
+  }
+
+/* ================The coins table styling ================= */
+
+.star-icon:hover{
+    color: var(--primary-color);
+    cursor: pointer;
+    
+}
+
+.coin-image-name{
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    text-transform: uppercase;
+}
+
+
+
+.coin-image-name img{
+    width: 1.5rem;
+
+}
+
+.hour-gain{
+    color: #58bd7d;
+    font-weight: 500;
+}
+
+.hour-loss{
+    color: #d33535;
+    font-weight: 500;
+}
+
+
+.spark-lines{
+    margin: 0 1.5rem 0 0;
+}
+
+.trade-btn{
+    padding: .4rem 1rem;
+    background: none;
+    border-radius: 2rem;
+    font-weight: 700;
+    font-size: .9rem;
+}
+
+.trade-btn.light{
+    border: 2px solid #9da3b3a6;
+}
+
+.trade-btn.dark{
+    border: 2px solid #fff;
+}
+.trade-btn:hover{
+    border: 2px solid var(--primary-color);
+    background: var(--primary-color);
+    color: #fff;
+}
+@media screen and (max-width:800px){
+    .coins-con .top-flex h1{
+        font-size: 2rem;
+        text-align: left;
+        width: 100%;
+    }
+    .coins-con .top-flex{
+        flex-direction: column;
+        align-items: baseline;
+        gap: 1rem;
+        
+    }
+
+    form{
+        width: 70%;
+        justify-content: space-between;
+    }
+
+}
+
+
+@media screen and (max-width:800px){
+    td, th{
+        font-size: .8rem;   
+    }
+
+    
+.spark-lines{
+    margin: 0 0 0 0;
+    width: 100%; 
+}
+
+}

@@ -20,7 +20,9 @@ const Header = () => {
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
 
-
+        const openPage = () =>{
+            setClick(!click);
+        }
 
   return (
     <header className={darkMode ? 'bg-dark' : 'bg-light'} > 
@@ -38,12 +40,12 @@ const Header = () => {
             </div>
             <div className='center-nav'>
                 <ul className={click ? 'nav-links active': 'nav-links'}>
-                    <li><Link to='/'    className={theme ? 'text-white':'text-black'}>Home</Link></li>
-                    <li><Link to='/crypto'  className={theme ? 'text-white':'text-black'}>Crypto</Link></li>
-                    <li><Link to='/markets' className={theme ? 'text-white':'text-black'}>Markets</Link></li>
-                    <li><Link to='/budget'  className={theme ? 'text-white':'text-black'}>Budget</Link></li>
-                    <li><Link to='/blog'    className={theme ? 'text-white':'text-black'}>Blog</Link></li>
-                    <li><Link to='/blog' className={theme ? 'text-white':'text-black'}>More</Link></li>
+                    <li><Link to='/'    className={theme ? 'text-white':'text-black'} onClick={openPage}>Home</Link></li>
+                    <li><Link to='/crypto'  className={theme ? 'text-white':'text-black'} onClick={openPage}>Crypto</Link></li>
+                    <li><Link to='/markets' className={theme ? 'text-white':'text-black'} onClick={openPage}>Markets</Link></li>
+                    <li><Link to='/budget'  className={theme ? 'text-white':'text-black'} onClick={openPage}>Budget</Link></li>
+                    <li><Link to='/blog'    className={theme ? 'text-white':'text-black'} onClick={openPage}>Blog</Link></li>
+                    <li><Link to='/blog' className={theme ? 'text-white':'text-black'} onClick={openPage}>More</Link></li>
                 </ul>
 
                 

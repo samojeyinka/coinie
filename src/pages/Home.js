@@ -8,19 +8,22 @@ import Download from '../components/Download';
 import Reviews from '../components/Reviews';
 import Advert from '../components/Advert';
 import Footer from '../components/Footer';
-const Home = () => {
+import CoinSearch from '../components/CoinSearch';
+
+const Home = ({coins}) => {
 
   const [theme] = useThemeHook();
   return (
     <div className={theme? 'bg-dark' : 'bg-light'}>
-      <Header/>
+      {/* <Header/> */}
       <Hero/>
+      <CoinSearch coins={coins}/>
       <HowItWork/>
       <About/>
       <Download/>
       <Reviews/>
       <Advert/>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   )
 }

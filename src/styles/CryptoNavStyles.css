@@ -1,0 +1,41 @@
+.crypto-nav{
+    padding: 2rem 0 0 0;
+    width: 100%;
+}
+
+.crypto-nav ul{
+    display: flex;
+    gap: 1.5rem;
+    
+}
+
+.crypto-nav ul li a{
+    font-weight: 600;
+    font-size: 1rem;  
+    padding: .4rem 1rem; 
+    border-radius: 2rem;
+}
+
+.crypto-nav ul li a:hover,.active-tab{
+    background: var(--primary-color);
+    color: #fff;
+}
+
+
+@media screen and (max-width:900px){
+ 
+    .crypto-nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+}
+
+
+
+@media screen and (max-width:600px){
+    .crypto-nav ul{
+        grid-template-columns: 1fr 1fr;
+        
+    }
+}

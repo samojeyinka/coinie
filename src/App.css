@@ -92,6 +92,7 @@ button{
 
 :root{
   --primary-color:#0d6efd;
+  --primary-color-light:#0d6dfd0b;
   --bg-secondary:#25292d;
 }
 
@@ -104,3 +105,22 @@ button{
 .two{
   background-color: blue;
 }
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+}
+
+
