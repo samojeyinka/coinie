@@ -1,0 +1,89 @@
+.trending{
+    margin: 5rem 0;
+    width: 100%;
+    padding: 2rem;
+}
+
+
+.tred-con{
+    width: 95%;
+    margin: auto;
+    max-width: 1920px;
+    overflow: hidden;
+    
+}
+
+.tred-con h1{
+font-weight: 400;
+padding: .6rem 0;
+}
+.flex-tred{
+    display: flex;
+    gap:1rem;
+    cursor: grab;
+   
+}
+
+
+.tred-box{
+    min-width: 19rem;
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+   padding: 1.5rem;
+   border-radius: 1.4rem;
+   cursor: grab;
+   
+}
+
+.tred-box span{
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.tred-box span .rank{
+    color: var(--primary-color);
+}
+
+.tred-flex-top{
+    display: flex;
+    gap: .8rem;
+}
+
+.tred-flex-top p{
+    font-weight: 700;
+}
+
+.tred-flex-top small{
+    font-weight: 500;
+}
+
+.tred-flex-top img{
+    width: 1.7rem;
+
+}
+
+.tred-flex-bottom{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.tred-flex-bottom img{
+    width: 1.7rem;
+}
+
+.tred-flex-bottom h3{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+
+@media screen and (max-width:800px){
+
+    
+.tred-box{
+    min-width: 70%;
+}
+}

@@ -11,6 +11,7 @@
 
 .coin-table-con{
     width: 100%;
+    max-height: 50rem;
     overflow: auto;
 }
 .coins-con .top-flex{

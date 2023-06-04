@@ -21,6 +21,8 @@ import  miniHero from './HomeImages/miniHero.png';
 import  pro1 from './HomeImages/pro1.png';
 import  pro2 from './HomeImages/pro2.png';
 import  pro3 from './HomeImages/pro3.png';
+import paginationArrow from './HomeImages/pagination-arrow.svg';
+import reset from './HomeImages/reset.svg'
 
 
 
@@ -48,4 +50,6 @@ export{
     pro1,
     pro2,
     pro3,
+    reset,
+    paginationArrow,
 }

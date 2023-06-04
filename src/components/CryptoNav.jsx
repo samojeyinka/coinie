@@ -10,7 +10,7 @@ const CryptoNav = () => {
   return (
     <div className='crypto-nav'>
         <ul>
-            <li><Link to='/' className={theme ? 'text-white active-tab':'text-black active-tab'}>View All</Link></li>
+            <li><Link to='/'  className={theme ? 'text-white active-tab':'text-black active-tab'}>View All</Link></li>
             <li><Link to='/' className={theme ? 'text-white':'text-black'}>Metaverse</Link></li>
             <li><Link to='/' className={theme ? 'text-white':'text-black'}>Entertainment</Link></li>
             <li><Link to='/' className={theme ? 'text-white':'text-black'}>Energy</Link></li>

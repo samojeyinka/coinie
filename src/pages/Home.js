@@ -9,6 +9,7 @@ import Reviews from '../components/Reviews';
 import Advert from '../components/Advert';
 import Footer from '../components/Footer';
 import CoinSearch from '../components/CoinSearch';
+import Trending from '../components/Trending';
 
 const Home = ({coins}) => {
 
@@ -17,6 +18,7 @@ const Home = ({coins}) => {
     <div className={theme? 'bg-dark' : 'bg-light'}>
       {/* <Header/> */}
       <Hero/>
+      <Trending/>
       <CoinSearch coins={coins}/>
       <HowItWork/>
       <About/>

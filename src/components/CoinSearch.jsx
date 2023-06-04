@@ -9,7 +9,7 @@ const CoinSearch = ({coins}) => {
 
   const [theme] = useThemeHook();
   const [searchCoin, setSearchCoin] = useState('');
-    console.log(coins)
+  
   return (
     <section className={theme ? 'bg-dark coins-sec':'bg-light coins-sec'}>
       <div className='coins-con'>
