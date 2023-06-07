@@ -147,3 +147,12 @@
     color: #fff
 }
 
+
+@media screen and (max-width:900px){
+.profile-editor-flex{
+    flex-direction:column;
+}
+ .profile-result,.profile-edit {
+   width:100%;
+}
+
