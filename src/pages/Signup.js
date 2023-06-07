@@ -18,7 +18,7 @@ const { signUp } = UserAuth();
       setError('')
       try {
         await signUp(email, password)
-        navigate('/profilepage')
+        navigate('/wallet')
       } catch (e) {
         setError(e.message)
         console.log(e.message)
