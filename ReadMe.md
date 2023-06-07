@@ -24,7 +24,7 @@ I spent approximately five days creating this web application while managing my 
 Overall, this web application provides users with an intuitive interface to stay updated on cryptocurrency prices, manage their favorite cryptocurrencies, and experience a seamless buying process in a test environment.
 
 
-##Live preview👇
+## Live preview👇
 https://coinie.vercel.app/
 
 
