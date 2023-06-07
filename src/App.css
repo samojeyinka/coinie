@@ -65,6 +65,7 @@
   box-sizing: border-box;
   font-family: 'manrope',sans-serif;
   transition: .2s;
+    -webkit-tap-highlight-color: transparent;
   
 }
 
@@ -76,8 +77,12 @@
 
 a{
     text-decoration: none;
- -webkit-tap-highlight-color: transparent !important;
-  outline: none !important
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  outline: none;
+}
+
+a:focus,a:visited,a:active{
+  outline: none;
 }
 
 li{
