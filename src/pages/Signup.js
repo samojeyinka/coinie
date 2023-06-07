@@ -48,7 +48,7 @@ const { signUp } = UserAuth();
           </div>
           <div>
           <label className={theme ? 'text-light-gray':'text-dark-gray'}>Password</label>
-          <input type='passowrd'
+          <input type='password'
            onChange={(e) => setPassword(e.target.value)}
           placeholder='Please enter a password'/>
           </div>
