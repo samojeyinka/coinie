@@ -72,8 +72,11 @@
 
 
 
+
+
 a{
-  text-decoration: none;
+    text-decoration: none;
+ -webkit-tap-highlight-color: transparent !important;
 }
 
 li{
@@ -97,14 +100,7 @@ button{
 }
 
 
-.one{
-  background-color: #18191d;
-}
 
-
-.two{
-  background-color: blue;
-}
 
 
 
