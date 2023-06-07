@@ -137,7 +137,7 @@ const Header = () => {
           {
             user?.email ? (<button className={theme ? 'wallet-btn dark-wallet-btn' : 'wallet-btn light-wallet-btn'}>
               <Link to='/wallet' className={theme ? 'text-white' : 'text-black'}>Wallet</Link>
-            </button>) : (<li><Link to='/signin' className={theme ? 'text-white' : 'text-black'} >Login</Link></li>)
+            </button>) : (<li><Link to='/signin' className={theme ? 'text-white' : 'text-black'} style={{fontWeight:'600'}}>Login</Link></li>)
           }
 
 
