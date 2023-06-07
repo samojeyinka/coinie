@@ -20,7 +20,7 @@ const SignIn = () => {
     setError('')
     try {
       await signIn(email,password)
-      navigate('/profilepage')
+      navigate('/wallet')
       
     } catch (e) {
       setError(e.message)
