@@ -38,7 +38,7 @@ const CoinItem = ({ coin }) => {
       {/* Save coin button */}
       <td onClick={saveCoin}>
         <i className='star-icon'>
-          {savedCoin ? <BiStar size={18} /> : <BiStar size={20}/>}
+          {savedCoin ? <BiStar size={20}  style={{color:'#ffa500'}}/> : <BiStar size={18} />}
         </i>
       </td>
       {/* Market cap rank */}
