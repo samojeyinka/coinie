@@ -15,7 +15,7 @@ const ProfileResult = ({profileImage, firstname, lastname, email, number, age, c
             <p className={theme ? 'text-light-gray':'text-dark-gray'}><BiPhoneCall size={20}/><span>{number}</span></p>
             <p className={theme ? 'text-light-gray':'text-dark-gray'}><BiCalendar size={20}/><span>{age}</span></p>
             <p className={theme ? 'text-light-gray':'text-dark-gray'}><BiLocationPlus size={20}/><span>{country}</span></p>
-            <Link to='/budget'>
+            <Link to='/profile'>
             <button><p>Edit</p><BiPencil size={20}/></button>
             </Link>
 
