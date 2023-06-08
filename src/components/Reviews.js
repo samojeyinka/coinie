@@ -1,6 +1,6 @@
 import React, { useState,useRef,useEffect } from 'react';
 import '../styles/ReviewsStyles.css';
-import {useThemeHook} from '../GlobalComponents/ThemeProvider';
+import { useThemeHook } from '../context/ThemeProvider';
 import {pro1,pro2,pro3} from '../assets/images';
 import {FaQuoteRight,FaQuoteLeft} from 'react-icons/fa';
 import { motion } from 'framer-motion';

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/HowItWorkStyles.css';
-import { useThemeHook } from '../GlobalComponents/ThemeProvider';
+import { useThemeHook } from '../context/ThemeProvider';
 import {download,connectwallet,starttrading,profittrading} from '../assets/images'
 
 const HowItWork = () => {

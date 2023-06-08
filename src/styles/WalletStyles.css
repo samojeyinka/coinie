@@ -1,0 +1,112 @@
+.wallet-sec{
+    padding: 5rem 0;
+    width: 100%;
+}
+
+
+.wallet-center{
+    width: 95%;
+    max-width: 1920px;
+    margin: auto;
+
+}
+
+
+.wallet-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+
+.wallet-flex h1{
+    font-size: 2.8rem;
+    font-weight: 800;
+}
+
+.wallet-flex p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+
+.wallet-flex button{
+    padding: .5rem 1rem;
+    color: #fff;
+    background: red;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 1rem;
+}
+
+
+.watchlist h1{
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+
+
+.saved-coin{
+    width: 70%;
+    margin: auto;
+}
+.saved-coin p{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.saved-coin a{
+    color: var(--primary-color);
+}
+
+.saved-coin table{
+    width: 100%;
+}
+
+
+
+
+.saved-coin table th{
+    font-weight: 600;
+  }
+  
+  .saved-coin td, th {
+    text-align: left;
+    padding: 1rem;
+  }
+
+
+  .saved-coin .img-coin{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  
+  .saved-coin .img-coin p{
+    font-weight: 800;
+  }
+
+  .saved-cointhead tr.dark{
+    border-bottom: 2px solid #fff;
+  }
+
+  .saved-cointhead tr.light{
+    border-bottom: 2px solid #000;
+  }
+
+  .saved-coin tr{
+    border-bottom: 1px solid #9da3b337;
+  }
+
+  .saved-coin tbody tr:hover{
+    background:var(--primary-color-light);
+  }
+
+
+  .saved-coin tbody img{
+    width: 3rem;
+  }

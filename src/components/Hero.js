@@ -1,6 +1,6 @@
 import React, { useState,useRef,useEffect } from 'react';
 import '../styles/HeroStyles.css';
-import { useThemeHook } from '../GlobalComponents/ThemeProvider';
+import { useThemeHook } from '../context/ThemeProvider';
 import { partner1,partner2,partner3,partner4,heroImgLight } from '../assets/images';
 import {Link} from 'react-router-dom';
 import { motion } from 'framer-motion';
@@ -25,7 +25,7 @@ const Hero = () => {
             and fastest way to buy & sell crypto asset exchange.</p>
 
             <button>
-              <Link to='/'>
+              <Link to='/signup'>
               Get started now
               </Link>
               </button>

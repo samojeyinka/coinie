@@ -1,0 +1,149 @@
+.profile-editor-sec{
+    padding: 6rem 0;
+    width: 100%;
+}
+
+.profile-editor-con{
+    width: 95%;
+    margin: auto;
+}
+
+.profile-editor-flex{
+    display: flex;
+    gap: 3rem;
+}
+
+
+ .profile-result{
+    width: 25%;
+    /* padding: 2rem; */
+} 
+
+.profile-result-center{
+    width: 90%;
+    margin: auto;
+}
+.profile-result h3{
+    text-align: center;
+}
+
+.profile-result p{
+    text-align: left;
+}
+
+.profile-result h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.profile-result p{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding:.4rem 0 ;
+}
+.profile-image{
+    width: 7.5rem;
+    height: 7.5rem;
+    margin: auto;
+   
+}
+.profile-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+.profile-result button{
+    margin: 1rem 0;
+    background: var(--primary-color);
+    padding:.1rem 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+    color: #fff;
+    border-radius: 2rem;
+}
+
+.profile-edit{
+    width: 75%;
+}
+
+
+.profile-edit h2{
+    font-size: 2.4rem;
+    font-weight: 800;
+}
+
+
+.profile-edit h5{
+    font-size: 1.2rem;
+    padding: 1rem 0;
+}
+
+
+
+.preview-image{
+    padding: 2rem 0;
+    width: 15rem;
+    margin: auto;
+}
+
+
+.preview-image img{
+    width: 100%;
+    margin-bottom: .5rem;
+}
+
+.preview-image label{
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+
+.inputImage{
+    margin-top: .5rem;
+    padding: 1rem;
+    background:#6710f22f ;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    width: 100%;
+    cursor: pointer;
+}
+.form-flex{
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+}
+
+.form-left, .form-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.form-flex input{
+    padding: 1rem;
+    border: 1px solid rgba(194, 194, 194, 0.407);
+    border-radius: 1rem;
+    font-size: 1rem;
+    outline: none;
+
+}
+
+.profile-editor-con form button{
+    margin-top: 2rem;
+    padding: 1rem 3rem;
+    font-weight: 800;
+    font-size: 1.2rem;
+    border-radius: 2rem;
+    background: var(--primary-color);
+    color: #fff
+}
+

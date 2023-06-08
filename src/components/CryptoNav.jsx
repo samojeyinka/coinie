@@ -1,23 +1,25 @@
 import React from 'react';
-import { useThemeHook } from '../GlobalComponents/ThemeProvider';
+import { useThemeHook } from '../context/ThemeProvider';
 import '../styles/CryptoNavStyles.css';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const CryptoNav = () => {
 
-    const [theme] = useThemeHook();
+  const [theme] = useThemeHook();
+
+  // The navigation bar above the crypto table
 
   return (
     <div className='crypto-nav'>
-        <ul>
-            <li><Link to='/'  className={theme ? 'text-white active-tab':'text-black active-tab'}>View All</Link></li>
-            <li><Link to='/' className={theme ? 'text-white':'text-black'}>Metaverse</Link></li>
-            <li><Link to='/' className={theme ? 'text-white':'text-black'}>Entertainment</Link></li>
-            <li><Link to='/' className={theme ? 'text-white':'text-black'}>Energy</Link></li>
-            <li><Link to='/' className={theme ? 'text-white':'text-black'}>NFT</Link></li>
-            <li><Link to='/' className={theme ? 'text-white':'text-black'}>Gaming</Link></li>
-            <li><Link to='/' className={theme ? 'text-white':'text-black'}>Music</Link></li>
-        </ul>
+      <ul>
+        <li><Link to='/' className={theme ? 'text-white active-tab' : 'text-black active-tab'}>View All</Link></li>
+        <li><Link to='/' className={theme ? 'text-white' : 'text-black'}>Metaverse</Link></li>
+        <li><Link to='/' className={theme ? 'text-white' : 'text-black'}>Entertainment</Link></li>
+        <li><Link to='/' className={theme ? 'text-white' : 'text-black'}>Energy</Link></li>
+        <li><Link to='/' className={theme ? 'text-white' : 'text-black'}>NFT</Link></li>
+        <li><Link to='/' className={theme ? 'text-white' : 'text-black'}>Gaming</Link></li>
+        <li><Link to='/' className={theme ? 'text-white' : 'text-black'}>Music</Link></li>
+      </ul>
     </div>
   )
 }

@@ -11,7 +11,6 @@
 
 .coin-table-con{
     width: 100%;
-    max-height: 50rem;
     overflow: auto;
 }
 .coins-con .top-flex{
@@ -24,7 +23,7 @@
     font-size: 2.8rem;
 }
 
-form{
+.coins-con form{
     display: flex;
     align-items: center;
     border: 3px solid #9da3b3;
@@ -32,7 +31,7 @@ form{
     
 }
 
-form:hover{
+.coins-con form:hover{
     border: 3px solid var(--primary-color);
 }
 
@@ -92,6 +91,10 @@ form:hover{
 
 /* ================The coins table styling ================= */
 
+
+.star-fill{
+    color: orange;
+}
 .star-icon:hover{
     color: var(--primary-color);
     cursor: pointer;

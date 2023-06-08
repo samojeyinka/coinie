@@ -1,0 +1,112 @@
+.buycrypto-sec{
+    padding: 8rem 0;
+    width: 100%; 
+}
+
+.buycrypto-con{
+    width: 95%;
+    max-width: 1920px;
+    margin: auto;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    
+}
+
+.crypto-purchase{
+    width: 100%;
+}
+
+.crypto-board{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+
+.crypto-board label{
+    padding: 1rem 0;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.crypto-board select{
+    background:#6610f2;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 1rem;
+    cursor: pointer;
+    border: none;
+    outline: navajowhite;
+}
+
+.crypto-board select option{
+    border: none;
+    height: 20rem;
+}
+.buy-trigger{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    width: 100%;
+    padding: 1rem 0;
+}
+.buy-trigger label{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.buy-trigger input{
+    padding: .8rem;
+    border: 2px solid rgba(219, 216, 216, 0.403);
+    outline: none;
+}
+
+.buy-trigger button{
+    padding: .8rem;
+    background: var(--primary-color);
+    font-size: 1.5rem;
+    font-size: 800;
+    color: #fff;
+}
+
+
+
+.crypto-balance{
+    width: 100%;
+    
+}
+
+.crypto-balance p{
+    padding: .7rem;
+    font-size: 1.2rem;
+background: rgba(163, 253, 163, 0.118);
+}
+
+.crypto-balance h2{
+    font-weight: 700; 
+    text-align: center;
+}
+
+.crypto-balance ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    padding: 1rem;
+    width: 60%;
+    margin: auto;
+}
+.crypto-balance ul li{
+    font-size: 1.2rem;
+    padding-top: .7rem;
+    font-weight: 600;
+}
+
+
+
+@media screen and (max-width:800px){
+    .buycrypto-con{
+     flex-direction: column;
+        
+    }
+}

@@ -1,5 +1,5 @@
 import React, { useEffect, useState,useRef } from 'react';
-import {useThemeHook} from '../GlobalComponents/ThemeProvider';
+import { useThemeHook } from '../context/ThemeProvider';
 import axios from 'axios';
 import '../styles/TrendingStyles.css';
 import { motion } from 'framer-motion';
@@ -36,8 +36,8 @@ const Trending = () => {
         <motion.div className='flex-tred' drag='x' dragConstraints={{right:0, left:-width}}>
 
             {
-                trending.map(coin=> (
-                    <motion.div className={theme ? 'bg-secondary tred-box': 'bg-light tred-box'}>
+                trending.map((coin,idx) => (
+                    <motion.div key={idx} className={theme ? 'bg-secondary tred-box': 'bg-light tred-box'}>
                         <span className={theme ? 'text-white':'text-black'}>
                         #<span className='rank'>{coin.item.score}</span>
                         </span>

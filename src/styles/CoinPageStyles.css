@@ -1,0 +1,174 @@
+.coinpage-sec{
+    padding: 6rem 0;
+    overflow: hidden;
+    
+}
+
+.coinpage-con{
+    width: 95%;
+    max-width: 1920px;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.top-details{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.top-details img{
+    width: 5rem;
+}
+
+.top-details h3{
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.top-details p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.middle-details{
+    padding: 3rem 0;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+
+.m-left-details{
+    width: 45%;
+}
+
+
+
+.middle-price{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+
+.middle-price h3{
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+
+.middle-price p{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.middle-sparklines{
+    margin: 2rem 0;
+}
+
+.mrkt-cap-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mrkt-cap-left,.mrkt-cap-right{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.m-right-details{
+    width: 50%;
+}
+
+
+.m-right-details h3{
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+
+.mrkt-stat-flex{
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.mrkt-stat-left,.mrkt-stat-middle,.mrkt-stat-right{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+.coin-links{
+    padding-top: 3rem;
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin: auto;
+}
+
+
+.coin-links a{
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+
+.coin-links a:hover{
+    transform: scale(1.14);
+}
+
+.about-coin{
+    margin: 2rem 0;
+}
+
+.about-coin h3{
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+
+.about-coin p{
+    font-size: 1rem;
+    line-height: 1.6rem;
+}
+
+
+@media screen and (max-width:800px){
+
+    .top-details{
+        gap: 1rem;
+    }
+
+    .top-details img{
+        width: 3rem;
+    }
+    
+    .top-details h3{
+        font-size: 1.5rem;
+    }
+
+    .middle-price h3{
+        font-size: 1.4rem;
+      
+    }
+    .middle-details{
+        flex-direction: column;
+    }
+    .m-left-details,.m-right-details{
+        width: 100%;
+    }
+        
+    .about-coin{
+        height: 25rem;
+        overflow: auto;
+    }
+}
